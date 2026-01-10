@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Fira+Code&display=swap');
+
+body, .md-typeset {
+  font-family: 'Roboto', sans-serif;
+}
+
+code, pre {
+  font-family: 'Fira Code', monospace;
+}
+
+.md-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Optional: improve spacing on wide screens */
+.md-content {
+  max-width: 900px;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h2 {
+  margin-top: 3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.md-typeset a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.md-typeset a:hover {
+  border-bottom-color: currentColor;
+}
