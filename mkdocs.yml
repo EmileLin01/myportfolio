@@ -1,0 +1,53 @@
+site_name: My Portfolio
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: blue grey
+
+nav:
+  - Home: index.md
+
+  - Product & Help Systems:
+      - Car App Online Help (MkDocs): Product & Help Systems/car-app-help.md
+      - Mutant Apocalypse Survival Guide (DITA): Product & Help Systems/mutant-apocalypse.md
+      - Nectari Help System (PDF concept): Product & Help Systems/nectari-help.md
+
+  - API & Developer Documentation:
+      - Car Rental API Documentation (Swagger UI): API & Developer Documentation/car-rental-api.md
+      - API Endpoint Testing (Asciidoctor): API & Developer Documentation/api-testing.md
+      - SQL Knowledge Demonstration (Asciidoctor): API & Developer Documentation/sql-thought-exercise.md
+
+  - Integration & Technical Guides:
+      - Data Integration Guide (PDF): Integration & Technical Guides/data-integration.md
+      - Vehicle Maintenance XML Schema (Eclipse IDE): Integration & Technical Guides/vehicle-xml.md
+
+  - UX & Design:
+      - Video Game Guide (Adobe XD): UX & Design/video-game-guide.md
+
+  - Creative Technical Writing:
+      - D&D Homebrew System (PDF): Creative/dnd-homebrew.md
+      - D&D Magical Items (LaTeX): Creative/dnd-magic-items.md
+
+  - Copywriting & Thought Leadership:
+      - Rare Diseases in the US: Copywriting/rare-diseases.md
+      - Solar Energy in Mozambique: Copywriting/solar-energy.md
+
+  - Academic & Peer-Reviewed Research:
+      - American Grand Strategy: Academic/grand-strategy.md
+      - Sino-US Relations: Academic/sino-us-relations.md
+      - Culture and the Soldier: Academic/culture-soldier.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.extra
+  - footnotes
+
+extra_css:
+  - stylesheets/extra.css
